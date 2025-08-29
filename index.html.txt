@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MTA İNDİRME</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      background: url('https://wallpapercave.com/wp/wp1917159.jpg') no-repeat center center/cover;
+      text-align: center;
+    }
+
+    header {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      right: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    header a {
+      padding: 10px 20px;
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    header a:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 30px;
+      text-shadow: 2px 2px 8px black;
+    }
+
+    .download-btn {
+      padding: 20px 40px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: white;
+      background: #e11d48;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+      transition: transform 0.2s, background 0.3s;
+    }
+
+    .download-btn:hover {
+      transform: scale(1.05);
+      background: #be123c;
+    }
+
+    p {
+      margin-top: 15px;
+      font-size: 1.1rem;
+      text-shadow: 1px 1px 5px black;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="https://www.instagram.com/bertobmw2135" target="_blank">Instagram</a>
+    <a href="https://www.tiktok.com/@bertobmw35" target="_blank">TikTok</a>
+  </header>
+
+  <main>
+    <h1>MTA İNDİRME</h1>
+    <a href="https://dosya.co/0w59kq7l375v/MTA_kurulumzip.rar.html" target="_blank" class="download-btn">İndir</a>
+    <p>Bu linkten MTA’yı indirip oynayabilirsiniz. İyi oyunlar!</p>
+  </main>
+
+</body>
+</html>
